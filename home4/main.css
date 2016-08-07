@@ -90,12 +90,13 @@ ul:after {
 /* MENU */
 .menu-block{
 	background: url('img/menu.png') -2px 65px;
-	border-top: 1px solid #fff;
+	border-top: 1px solid #cacbcb;
+	height: 28px;
+	line-height: 25px;
 }
-.menu-block ul{	
-	width: 905px;	
-	margin: 0 auto;	
-	line-height: 30px;	
+.menu-block ul{
+	width: 905px;
+	margin: 0 auto;
 	background: url('img/triangles.png') no-repeat 211px 12px;
 }
 .menu-block ul>li:first-child{
