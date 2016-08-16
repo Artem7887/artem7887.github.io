@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+table{
+	border-collapse: collapse;
+}
+.first-line{
+    display: block;
+    border-bottom: 9px solid #000;
+}
+.one{
+    width: 117px;
+    height: 48px;
+    border-right: 9px solid #000;
+}
+.two{
+    width: 200px;
+    border-right: 9px solid #000;
+}
+.three{
+    background: #ffeb4e;
+    width: 165px;
+}
+.four{
+    border-right: 9px solid #000;
+    width: 47px;
+    height: 130px;
+    border-bottom: 9px solid #000;
+}
+.five{
+    border-right: 9px solid #000;
+    width: 270px;
+    border-left: 9px solid #000;
+    border-bottom: 9px solid #000;
+    height: 268px;
+    background: #ff5a37;
+}
+.six{
+    border-bottom: 9px solid #000;
+    width: 165px;
+    background: #ffeb4e;
+}
+.seven{}
+.eight{
+    width: 80px;
+    border-right: 9px solid #000;
+    border-bottom: 9px solid #000;
+}
+.nine{
+    border-bottom: 9px solid #000;
+}
+.ten{
+    border-bottom: 9px solid #000;
+    border-right: 9px solid #000;
+    height: 62px;
+    width: 47px;
+}
+.eleven{
+    border-bottom: 9px solid #000;
+    border-right: 9px solid #000;
+    width: 64px;
+    background: #151716;
+}
+.twelve{
+    border-bottom: 9px solid #000;
+    border-right: 9px solid #000;
+    width: 61px;
+    background: #151716;
+}
+.thirteen{
+    border-bottom: 9px solid #000;
+    border-right: 9px solid #000;
+    width: 129px;
+}
+.fourteen{
+    border-bottom: 9px solid #000;
+    width: 163px;
+}
+.fifteen{
+    height: 136px;
+    border-right: 9px solid #000;
+    background: #ffeb4e;
+}
+.sixteen{
+    height: 59px;
+    border-right: 9px solid #000;
+    border-bottom: 9px solid #000;
+    background: #151716;
+}
+.seventeen{
+    height: 59px;
+    border-right: 9px solid #000;
+    border-bottom: 9px solid #000;
+    background: #151716;
+}
+.eighteen{
+    border-right: 9px solid #000;
+    border-bottom: 9px solid #000;
+}
+.nineteen{
+    background: #004182;
+    border-bottom: 9px solid #000;
+}
+.twenty{
+    border-right: 9px solid #000;
+}
+.twenty-one{
+    height: 28px;
+    border-bottom: 9px solid #000;
+    background: #151716;
+}
