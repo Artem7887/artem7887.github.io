@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Студия Nerds - Магазин макетов</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="symbols-nerds/css/symbols-nerds.css">
+  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="layot-center-wrapper">
+      <a href="/manzhos/index.html">
+        <div class="logo"></div>
+      </a>
+      <div class="menu">
+        <ul>
+          <li><a href="/manzhos/index.html#studio">Студия</a>
+          </li>
+          <li><a href="/manzhos/index.html#clients">Клиенты</a>
+          </li>
+          <li class="active"><a href="/manzhos/shop.html">Магазин</a>
+          </li>
+          <li><a href="#contact">Контакты</a>
+          </li>
+          <li>
+            <div class="basket">
+              <i class="icon-basket"></i>
+              <a href="#">Корзина</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div style="clear:both"></div>
+      <div class="hello">
+        <div class="mega-title">Добро пожаловать в магазин готовых макетов</div>
+      </div>
+    </div>
+  </div>
+  <div style="clear:both"></div>
+
+
+  <div class="layot-center-wrapper clearfix">
+
+    <div class="content">
+      <div class="filter">
+
+        <div class="filter-name">Стоимость:</div>
+        <div class="filter-price">
+
+          <div class="range-controls">
+            <div class="scale">
+              <div style="width:70%;" class="bar"></div>
+            </div>
+            <div class="toggle min-toggle"></div>
+            <div class="toggle max-toggle"></div>
+          </div>
+          <div class="price-count">
+            от
+            <input class="min-price" type="text" value="0">до
+            <input class="max-price" type="text" value="15 000">
+          </div>
+        </div>
+
+        <div class="filter-name">Сетка:</div>
+        <div class="type-maket">
+          <input type="radio" id="adapt" name="rbtn" checked>
+          <label for="adapt"><span></span>Адаптивная</label>
+          <br>
+          <input type="radio" id="fix" name="rbtn">
+          <label for="fix"><span></span>Фиксированная</label>
+          <br>
+          <input type="radio" id="rubber" name="rbtn">
+          <label for="rubber"><span></span>Резиновая</label>
+        </div>
+
+
+        <div class="filter-name">Особенности:</div>
+        <div class="features-maket">
+          <input type="checkbox" id="adapts" name="chbtn" checked>
+          <label for="adapts"><span></span>Слайдер</label>
+          <br>
+          <input type="checkbox" id="sblock" name="chbtn">
+          <label for="sblock"><span></span>Блок приемуществ</label>
+          <br>
+          <input type="checkbox" id="news" name="chbtn" checked>
+          <label for="news"><span></span>Новости</label>
+          <br>
+          <input type="checkbox" id="galery" name="chbtn">
+          <label for="galery"><span></span>Галерея</label>
+          <br>
+          <input type="checkbox" id="bakets" name="chbtn">
+          <label for="bakets"><span></span>Корзина</label>
+          <br>
+        </div>
+      </div>
+
+
+      <div class="sort">
+        <span class="sort-name">Сортировать:</span>
+        <span class="sort-metod"><a href="#">По цене</a></span>
+        <span class="sort-metod"><a href="#">По типу</a></span>
+        <span class="sort-metod"><a href="#">По функционалу</a></span>
+        <i class="icon-down-dir activex"></i>
+        <i class="icon-up-dir"></i>
+
+      </div>
+
+      <div class="makets">
+        <div class="makets-blocks marginfix">
+          <div class="line"></div>
+          <div class="buy-block">
+            <div class="buy-title">Sunset</div>
+            <div class="buy-text">Интернет магазин с личным кабинетом.</div>
+            <a class="buy-btn" href="#">10 000 Р.</a>
+          </div>
+          <div class="makets-image">
+            <img src="img/makets-two.jpg">
+          </div>
+        </div>
+        <div class="makets-blocks">
+          <div class="line"></div>
+          <div class="buy-block">
+            <div class="buy-title">Sunset</div>
+            <div class="buy-text">Интернет магазин с личным кабинетом.</div>
+            <a class="buy-btn" href="#">10 000 Р.</a>
+          </div>
+          <div class="makets-image">
+            <img src="img/makets-one.jpg">
+          </div>
+        </div>
+        <div class="makets-blocks marginfix">
+          <div class="line"></div>
+          <div class="makets-image">
+            <div class="buy-block">
+              <div class="buy-title">Sunset</div>
+              <div class="buy-text">Интернет магазин с личным кабинетом.</div>
+              <a class="buy-btn" href="#">10 000 Р.</a>
+            </div>
+            <img src="img/makets-five.jpg">
+          </div>
+
+        </div>
+        <div class="makets-blocks">
+          <div class="line"></div>
+          <div class="makets-image">
+            <div class="buy-block">
+              <div class="buy-title">Sunset</div>
+              <div class="buy-text">Интернет магазин с личным кабинетом.</div>
+              <a class="buy-btn" href="#">10 000 Р.</a>
+            </div>
+            <img src="img/makets-three.jpg">
+          </div>
+        </div>
+        <div class="makets-blocks marginfix">
+          <div class="line"></div>
+          <div class="buy-block">
+            <div class="buy-title">Sunset</div>
+            <div class="buy-text">Интернет магазин с личным кабинетом.</div>
+            <a class="buy-btn" href="#">10 000 Р.</a>
+          </div>
+          <div class="makets-image">
+            <img src="img/makets-six.jpg">
+          </div>
+        </div>
+        <div class="makets-blocks">
+          <div class="line"></div>
+          <div class="buy-block">
+            <div class="buy-title">Sunset</div>
+            <div class="buy-text">Интернет магазин с личным кабинетом.</div>
+            <a class="buy-btn" href="#">10 000 Р.</a>
+          </div>
+          <div class="makets-image">
+            <img src="img/makets-four.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="pages-switch">
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Следующая</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div id="mapx">
+      <div class="layot-center-wrapper1">
+        <div id="contact" class="feedback">
+          <p class="text-feed-title"><b>Nёrds</b> design studio</p>
+          <p class="text-feed">350000, Краснодар, ул.Головатого, 100</p>
+          <p class="text-feed">тел. +7 (861) 275-75-75</p>
+          <a href="#" class="feedback-btn">Напишите нам</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="layot-center-wrapper">
+      <div class="soc">
+        <a href="#" class="soc-btn-vk icon-vk"></a>
+        <a href="#" class="soc-btn-face icon-facebook"></a>
+        <a href="#" class="soc-btn-inst icon-instagramm"></a>
+      </div>
+      <div class="text-footer">
+        <p class="title-1">Давайте дружить, это выгодно!</p>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </div>
+  <div class="contact-popup">
+    <form action="/auth" method="post">
+      <span class="name-rows">Ваше имя:</span>
+      <span class="name-rows">Ваш e-mail:</span>
+      <input type="text" name="user-name" id="us-name" placeholder="Представьтесь, пожалуйста" autofocus>
+      <input type="text" name="user-email" id="us-email" placeholder="Для отправки ответа">
+      <span class="name-rows">Текст письма:</span>
+      <textarea name="message" rows="6" cols="52" id="message-field" placeholder="В свободной форме"></textarea>
+      <input type="submit" value="Отправить">
+      <a href="#" class="no-contact-btn">Отменить</a>
+    </form>
+  </div>
+  <script>
+    var link = document.querySelector('.feedback-btn');
+    var popup = document.querySelector('.contact-popup');
+    var close = popup.querySelector('.no-contact-btn');
+
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      popup.classList.add('contact-popup-show');
+
+
+    }, false);
+
+    close.addEventListener('click', function (event) {
+      event.preventDefault();
+      popup.classList.remove('contact-popup-show');
+    }, false);
+  </script>
+  <script type="text/javascript">
+    ymaps.ready(function () {
+      var myMap = new ymaps.Map('mapx', {
+          center: [45.043446, 38.944501],
+          zoom: 18,
+          controls: ['smallMapDefaultSet']
+        }),
+        myPlacemark = new ymaps.Placemark([45.04405, 38.944111], {
+          hintContent: 'Студия NERDS ул.Головатого, д.100'
+        }, {
+          // Опции.
+          // Необходимо указать данный тип макета.
+          iconLayout: 'default#image',
+          // Своё изображение иконки метки.
+          iconImageHref: 'http://barbershop-borodinski.ru/manzhos/mark.png',
+          // Размеры метки.
+          iconImageSize: [320, 192],
+          // Смещение левого верхнего угла иконки относительно
+          // её "ножки" (точки привязки).
+          iconImageOffset: [-50, -4]
+        });
+
+      myMap.geoObjects.add(myPlacemark);
+    });
+  </script>
+</body>
+
+
+</html>
