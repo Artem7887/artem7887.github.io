@@ -120,10 +120,10 @@ input[type="checkbox"]{
 }
 input:focus{
 	background: #1b5288;
-	border: none;
+	border-bottom: 1px solid transparent;
 	box-shadow: 0px 0px 9px 3px #2f7bc5;
 	color: #fffbfb;
-	outline: none;
+	outline: 1px solid transparent;
 }
 input:focus::-webkit-input-placeholder {color: #fffbfb}
 input:focus::-moz-placeholder          {color: #fffbfb}
