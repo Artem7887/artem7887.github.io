@@ -1,0 +1,21 @@
+body{
+	background-image: url('../img/cover.jpg');
+	background-position: center 0px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.timerWrapper{
+	position: relative;
+	top: 100px;
+	left: 23px;
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+}
+form[name="TestForm"]{}
+#timerLabel{
+	margin-bottom: 10px;
+	font-size: 36px;
+	height: 100%;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Timer</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="timerWrapper">
+		<form name="mainTimer">
+
+		<div id="timerLabel" class="form-control">00:00:00:00</div>
+		
+		<input class="btn btn-success btn-lg" type="button" value="Запуск" onclick="start()" id="startBtn">
+		
+		<input class="btn btn-danger btn-lg" type="button" value="Стоп" onclick="stop()">
+		
+		<input class="btn btn-primary btn-lg" type="button" value="Обнулить" onclick="clearx()">
+
+		<div style="clear:both;"></div>
+	</div>
+</form>
+</body>
+</html>
