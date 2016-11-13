@@ -1,0 +1,39 @@
+.tabs{
+	display:inline-block;
+	font-family: Roboto;
+}
+.tabs ul{
+	margin:0px;
+	padding:0px;
+}
+.tabs ul:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:5px;
+	background:#2ecc71;
+}
+.tabs ul li{
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	display:block;
+	float:left;
+	padding:10px 15px;
+	background:#e9eaeb;
+	color:#707070;
+}
+.tabs .active{
+	background:#2ecc71;
+	color:#fff;
+}
+.tabs ul li:hover{
+	background:#27ae60;
+	color:#fff;
+}
+
+.tabsContent div{
+	border: 1px solid #2ecc71;
+    border-top: none;
+    padding: 8px;
+}
