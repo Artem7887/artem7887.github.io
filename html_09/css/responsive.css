@@ -1,0 +1,128 @@
+@media screen and (max-width:960px){
+.box { padding:1px 20px;}
+.pT50 { padding-top:50px;}
+.logo { float:none;}
+.menu { 
+	text-align:left; 
+	margin:10px 0 0 -20px;
+	}
+.slider__item h1 {font-size:48px;}
+
+.slider__item span { font-size:24px;}
+
+.slider__item p { font-size:16px;}
+
+.slider__item {
+	padding:75px 260px 100px 0;
+	}
+.content-txt__item h2 { font-size:24px;}
+
+.partners__single { margin:0 5px 10px 5px;}
+
+footer { padding:25px 0px 75px 0px;}
+
+.design_by { float:none; position:absolute; top:50px; right:20px;}
+}
+
+@media screen and (max-width:768px){
+.logo { margin:0 auto;}
+.menu { text-align:center; margin:10px 0 0 0; overflow:hidden;}
+
+.menu__active { display:inline-block;}
+
+.menu.responsive-menu ul { display:none;}
+
+.menu.responsive-menu:hover .menu__active {
+	}
+
+.menu.responsive-menu:hover ul { 
+	display:block;
+	background:rgba(54,41,62,0.9);
+	border:1px solid #131d24;
+	border-radius:15px;
+	overflow:hidden;
+	position:absolute;
+	top:105px;
+	left:0;
+	right:0;
+	margin:0 auto;
+	z-index:2;
+	max-width:260px;
+	}
+.menu.responsive-menu:hover li { 
+	display:block;
+	margin:0;
+	}
+.menu.responsive-menu:hover .menu__link {
+	display:block;
+	padding:5px 0;
+	}
+	
+.menu.responsive-menu:hover .menu__link:hover {
+	background:rgba(54,41,62,0.9);
+	}
+	
+.slider__item p { display:none;}
+
+.column-3 .content-txt__item {
+	float:none;
+	width:100%;
+	padding:0 30px;
+	}
+.content-txt__item a { padding:0;}
+
+
+.left-column,
+.right-column {
+	float:none;
+	width:100%;
+	margin:0 0 15px 0;
+	}
+.right-column { padding:0;}
+.right-column li { margin:0 0 15px 55px;}
+	
+footer .menu { text-align:center;}
+footer .menu:hover { background:none;}
+footer .menu__link { display:inline-block; font-size:20px; padding:0 5px;}
+.design_by { margin:0 auto; left:0; right:0; text-align:center;}
+}
+
+
+
+@media screen and (max-width:480px){
+
+.slider__item { padding:75px 0 100px; text-align:center;}
+.slider__item .deco_img { display:none;}
+
+
+.gray { display:none;}
+.design_by  { top:10px;}
+footer .menu { display:none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
