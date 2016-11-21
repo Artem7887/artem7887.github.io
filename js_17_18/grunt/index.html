@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+   
+    <script src="script/script.main.min.js" charset="utf-8"></script>
+    <script src="https://use.fontawesome.com/a4b5e7f5fe.js"></script>
+    <title>Carousele & Templ</title>
+  </head>
+  <body>
+    <div class="carousele">
+        <div class="carousel-arrow-left"><span>Left</span></div>
+        <div class="carousel-hider">
+            <ul class="carousel-list">
+                <li class="carousel-element"><img src="img/1.jpg" alt="Picture 1"><p>picture 1</p></li>
+                <li class="carousel-element"><img src="img/2.jpg" alt="Picture 2"><p>picture 2</p></li>
+                <li class="carousel-element"><img src="img/3.jpg" alt="Picture 3"><p>picture 3</p></li>
+                <li class="carousel-element"><img src="img/4.jpg" alt="Picture 4"><p>picture 4</p></li>
+                <li class="carousel-element"><img src="img/5.jpg" alt="Picture 5"><p>picture 5</p></li>
+                <li class="carousel-element"><img src="img/6.jpg" alt="Picture 6"><p>picture 6</p></li>
+            </ul>
+        </div>
+        <div class="carousel-arrow-right"><span>Right</span></div>
+    </div>
+
+    <div class="page">
+        <div class="wrapper">
+
+        </div>
+    </div>
+
+    <script type="text/template" id="profile">
+        <div class="name"><%= name%></div>
+        <div class="photo"><img src="<%= picture%>" alt=""></div>
+        <p class="job"><%= job%></p>
+        <br><hr><br>
+        <p>Хочу учить фронтенд потому что:</p>
+        <ul class="objectives">
+            <li class="objective-item"><%= study1%></li>
+            <li class="objective-item"><%= study2%></li>
+            <li class="objective-item"><%= study3%></li>
+        </ul>
+        <br><hr><br>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<%= mail%></p>
+        <p><i class="fa fa-vk" aria-hidden="true"></i>&nbsp;<a href="<%= vk%>" target=_blank>vk.com</a></p>
+        <br><hr><br>
+        <p><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;<%= feedback%></p>
+    </script>
+
+  </body>
+</html>
