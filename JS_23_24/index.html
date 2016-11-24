@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script data-main="js/script" src="js/require.js"></script>
+</head>
+<body>
+    <h2>ToDoList:</h2>
+    <script type="text/template" id="wrapper-temlate">
+    <div class="container">
+        <ul class="item-list">
+        </ul>
+        <div class="main">
+            <input type="text" class="item-value">
+            <button class="item-add">Add</button>
+            <button class="item-confirm">Confirm changes</button>
+        </div>
+        <div class="information">
+        </div>
+    </div>  
+    </script>
+    <script type="text/template" id="list-temlate">
+    <%  for (var i = 0; i < data.length; i++) { %>        
+        <li data-index="<%= i %>" class="list-item"><%= data[i] %> 
+            <button  class="item-change">Change</button>
+            <button data-value="<%= data[i] %>" class="item-delete">Delete</button>
+        </li>
+    <% }; %>
+    </script>
+  </body>
+</html>
